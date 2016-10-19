@@ -1,0 +1,6 @@
+[submodule "frotz"]
+	path = frotz
+	url = https://github.com/DavidGriffith/frotz.git
+[submodule "restful-frotz"]
+	path = restful-frotz
+	url = https://github.com/tlef/restful-frotz.git
