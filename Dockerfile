@@ -3,7 +3,7 @@ MAINTAINER Robert O\'Rourke "rob@o-rourke.org"
 
 RUN apk add --no-cache --update \
     build-base linux-headers \
-    gcc make php5 php5-json
+    gcc make php5 php5-json php5-curl
 
 COPY frotz /etc/frotz
 WORKDIR /etc/frotz
