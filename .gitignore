@@ -1,6 +1,6 @@
 .idea/
 .DS_Store
-!saves
-!streams
 saves/**
 streams/**
+!saves/.keep
+!streams/.keep
