@@ -24,5 +24,5 @@ VOLUME /var/www/frotz/saves
 VOLUME /var/www/frotz/streams
 
 WORKDIR /var/www/frotz/rest
-EXPOSE 5000
-CMD php -S 0.0.0.0:5000
+EXPOSE 80
+CMD php -S 0.0.0.0:80
